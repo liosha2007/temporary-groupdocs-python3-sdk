@@ -28,7 +28,7 @@ class QuestionnaireCollectorInfo:
             'type': 'str',
             'status': 'str',
             'questionnaire_id': 'float',
-            'resolved_exectuions': 'int',
+            'resolved_executions': 'int',
             'emails': 'list[str]',
             'modified': 'int'
 
@@ -40,7 +40,7 @@ class QuestionnaireCollectorInfo:
         self.type = None # str
         self.status = None # str
         self.questionnaire_id = None # float
-        self.resolved_exectuions = None # int
+        self.resolved_executions = None # int
         self.emails = None # list[str]
         self.modified = None # int
         

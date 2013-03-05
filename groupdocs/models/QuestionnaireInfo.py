@@ -34,7 +34,9 @@ class QuestionnaireInfo:
             'assigned_questions': 'int',
             'total_questions': 'int',
             'modified': 'int',
-            'expires': 'int'
+            'expires': 'int',
+            'folder': 'str',
+            'emails': 'str'
 
         }
 
@@ -51,4 +53,6 @@ class QuestionnaireInfo:
         self.total_questions = None # int
         self.modified = None # int
         self.expires = None # int
+        self.folder = None # str
+        self.emails = None # str
         

@@ -23,10 +23,9 @@ class Country:
 
     def __init__(self):
         self.swaggerTypes = {
-            'Name': 'str'
+            
 
         }
 
 
-        self.Name = None # str
         
